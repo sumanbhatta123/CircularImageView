@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="83dp"
+        android:src="@drawable/rajesh_hamal" />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="19dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="Powered By : Sum" />
+
+
+</RelativeLayout>
